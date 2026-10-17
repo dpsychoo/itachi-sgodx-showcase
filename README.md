@@ -8,7 +8,7 @@
 
 [Open the live experience](https://itachi-sgodx.vercel.app/) · [View the case study](https://dpsychoo.github.io/itachi-sgodx-showcase/) · [SGODX / dpsychoo](https://github.com/dpsychoo)
 
-<img src="docs/assets/cover.svg" alt="Original abstract crimson cover artwork for this case study; not a screenshot of the application" width="820" />
+<img src="docs/assets/cover.webp" alt="Owner-approved Itachi Sharingan cover featuring red eyes and SGODX" width="820" />
 
 <sub>Presentation-only repository · Production implementation and unverified media are not included</sub>
 
@@ -18,7 +18,7 @@
 
 Uchiha Itachi — SGODX is an unofficial, Japanese-English browser experience that turns a long scroll into a sequence of visual acts: a frame-scrubbed introduction, a pointer-responsive Sharingan gaze, an atmospheric Jutsu reveal, and an end credit. The production experience combines browser-native rendering APIs with custom interaction and a third-party Ghost Cursor fragment documented in its notices.
 
-This public repository is a presentation-only case study. It contains no production HTML, CSS, JavaScript, shaders, character frames, video, sound files, or production screenshots. The cover above is original abstract SVG artwork and is not an application capture.
+This public repository is a presentation-only case study. It contains no production HTML, CSS, JavaScript, shaders, character frames, video, sound files, or additional production captures. One owner-approved Sharingan/SGODX cover is included; approval for this showcase does not establish blanket rights to Naruto material visible in the cover.
 
 ## 2. Live demo
 
@@ -28,7 +28,7 @@ The demo is hosted separately. This repository describes the experience without 
 
 ## 3. Visual preview
 
-Real desktop and mobile captures were reviewed privately. They show *Naruto* frame imagery whose public redistribution permission has not been confirmed, so they are withheld rather than edited into or replaced with mockups. See the [screenshot inventory](assets/screenshots/README.md) for the capture record.
+The owner-approved Sharingan/SGODX cover shown above is included for this portfolio showcase. Other desktop and mobile captures remain excluded because redistribution permission for the Naruto imagery they show has not been confirmed. See the [screenshot inventory](assets/screenshots/README.md) for the capture record.
 
 ## 4. Key features
 
