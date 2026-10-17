@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SGODX abstract crimson case-study cover</title>
+  <desc id="desc">Original abstract red light, dark geometry, and fine orbital lines created for this case study. Not an application screenshot or character depiction.</desc>
+  <defs>
+    <radialGradient id="bg" cx="70%" cy="45%" r="85%">
+      <stop offset="0" stop-color="#261018"/><stop offset=".5" stop-color="#0c090d"/><stop offset="1" stop-color="#050507"/>
+    </radialGradient>
+    <radialGradient id="flare" cx="52%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff4960" stop-opacity=".95"/><stop offset=".2" stop-color="#f01235" stop-opacity=".6"/><stop offset=".62" stop-color="#941124" stop-opacity=".2"/><stop offset="1" stop-color="#5b0a18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#ff5669" stop-opacity="0"/><stop offset=".5" stop-color="#ff7981" stop-opacity=".84"/><stop offset="1" stop-color="#ff263e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bloom"><feGaussianBlur stdDeviation="25"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grain" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffd9de" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grain)"/>
+  <ellipse cx="1110" cy="436" rx="390" ry="300" fill="#c60d2b" opacity=".16" filter="url(#bloom)"/>
+  <circle cx="1110" cy="436" r="258" fill="url(#flare)" opacity=".82"/>
+  <g fill="none" stroke-linecap="round" transform="translate(1110 436)" filter="url(#glow)">
+    <circle r="308" stroke="#eec4ca" stroke-opacity=".13" stroke-width="1.5"/>
+    <circle r="254" stroke="#ff5a70" stroke-opacity=".58" stroke-width="1.5" stroke-dasharray="155 54 42 97"/>
+    <circle r="207" stroke="#ffccd0" stroke-opacity=".38" stroke-width="1.5" stroke-dasharray="2 11"/>
+    <circle r="154" stroke="#e84358" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="M-352 0H-90M90 0H352M0-352V-90M0 90V352" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M-180-180L-58-58M180-180L58-58M-180 180L-58 58M180 180L58 58" stroke="#ff7682" stroke-opacity=".3" stroke-width="1"/>
+  </g>
+  <path d="M777 438H1439" stroke="url(#edge)" stroke-width="2" opacity=".8"/>
+  <g fill="#ffdce0" opacity=".8"><circle cx="1410" cy="248" r="2"/><circle cx="850" cy="650" r="1.5"/><circle cx="1329" cy="675" r="2"/><circle cx="1010" cy="183" r="1.4"/><circle cx="1501" cy="505" r="1.3"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f5f1f2">
+    <text x="112" y="112" font-size="16" letter-spacing="7" fill="#ef7181">SGODX / CREATIVE FRONTEND</text>
+    <text x="108" y="448" font-size="88" font-weight="700" letter-spacing="-5">ITACHI</text>
+    <text x="112" y="503" font-size="18" letter-spacing="5" fill="#bdadb3">CINEMATIC FAN EXPERIENCE</text>
+    <path d="M112 548H435" stroke="#ee5369" stroke-opacity=".78"/>
+    <text x="112" y="590" font-size="13" letter-spacing="3" fill="#a78e95">ABSTRACT CASE-STUDY COVER · NOT AN APP SCREENSHOT</text>
+  </g>
+</svg>

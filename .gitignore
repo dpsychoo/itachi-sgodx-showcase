@@ -1,0 +1,47 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# JavaScript tooling output (this showcase has no npm dependencies)
+node_modules/
+npm-debug.log*
+playwright-report/
+test-results/
+
+# Local captures and temporary review material
+*.webm
+*.mp4
+*.zip
+*.bak
+*.tmp
+
+# Production media, screenshots, shader fragments and private recovery material
+assets/screenshots/*
+!assets/screenshots/README.md
+media/
+img/
+frames/
+backups/
+recovery/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mov
+*.mp3
+*.wav
+*.glsl
+*.frag
+*.vert
+*.shader
+*.backup.*
